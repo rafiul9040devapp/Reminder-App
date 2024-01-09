@@ -1,9 +1,14 @@
-package com.rafiul.reminderapp;
+package com.rafiul.reminderapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.rafiul.reminderapp.R;
+
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {
 
     @Override
